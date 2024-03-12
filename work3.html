@@ -100,54 +100,65 @@
 </div>
 
 <div class="col-xs-12">
-    <h2> 3D prentun</h2>
+    <h2> Hluti 2: 3D prentun</h2>
     <p style="font-size: 14px;"> 
-        Þar sem að gripklóin var mestmegnis fengin af netinu þá ákvað ég að hafa hana ekki sem "official" verkefnið í þessum hluta og notaðist í staðin við plánetugír sem ég hannaði fyrir hreyfingu á liðamótum í vínróbotnum.
+        Þar sem að gripklóin var mestmegnis fengin af netinu þá ákvað ég að hafa hana ekki sem "official" verkefnið í þessum hluta og notaðist í staðin við plánetugír sem ég hannaði fyrir hreyfingu á liðamótum í vínróbotnum. Hafa þurft í huga það sem hafði komið í ljós í fyrri prófunum með gíra. Þessi svokallaða "split ring" hönnun á plánetugír var svo með gírhlutfall up á um það bil 1:150 sem hentaði vel þegar færa þurfti liðamót róbots með litlum mótorum.
     </p>
     <div class="image-container" style="text-align: center;">
-        <img src="./assets/images/TV2/PL" alt="Descriptive Text">
+        <img src="./assets/images/TV2/PLANET1 (1).jpg" alt="Descriptive Text">
     </div>
     <div class="image-container" style="text-align: center;">
-        <img src="./assets/images/TV2/KERF2.jpg" alt="Descriptive Text">
+        <img src="./assets/images/TV2/PLANET1 (2).jpg" alt="Descriptive Text">
     </div>
     <div class="image-container" style="text-align: center;">
-        <img src="./assets/images/TV2/KERF3.jpg" alt="Descriptive Text">
+        <img src="./assets/images/TV2/PLANET1 (3).jpg" alt="Descriptive Text">
     </div>
- 
+        <p style="font-size: 14px;"> 
+        Best reyndist að hafa að minnsta kosti 70% infill þar sem gírarnir verða fyrir miklu álagi og var mikilvægast að hafa sem flest gegnheil jaðarlög svo að þeir þoli allt álagið.
+    </p>
 </div>
+    <h3>CAD skrá fyrir plánetugír</h3>
+    <div id="fusionEmbedContainer1">
+        <!-- First Embedded Fusion link will be displayed here -->
+    </div>
 
-<div class="col-xs-12">
-    <h2> Hluti 3 parametrískt geislaskurðarmódel</h2>
-    <p style="font-size: 14px;"> 
-        Í þessum hluta var ákveðið að samtvinna verkefnið við áfangann Tölvustýrður vélbúnaður og skera út arm fyrir vínróbot. Til að uppfylla kröfur verkefnisins voru hafðar geirnegldir festipunktar á arminum og módelið gert parametrískt svo að hægt væri að breyta helstu stærðum og módelið myndi fylgja. Þar sem að aðeins var í boði að notast við 3 mm akrýl plötur þá var ákveðið að hafa hvora hlið armsins tvö lög á þykkt til að auka styrk og stöðugleika. Press fit spennur sjá svo um að halda lögunum saman.
-    <div class="image-container" style="text-align: center;">
-        <img src="./assets/images/TV2/ARM.jpg" alt="Descriptive Text">
-    </div>
-    <div class="image-container" style="text-align: center;">
-        <img src="./assets/images/TV2/ARM2.jpg" alt="Descriptive Text">
-    </div>
-    <div class="image-container" style="text-align: center;">
-        <img src="./assets/images/TV2/ARM3.jpg" alt="Descriptive Text">
-    </div>
-    <div class="image-container" style="text-align: center;">
-        <img src="./assets/images/TV2/ARM4.jpg" alt="Descriptive Text">
-    </div>
- 
-</div>
+</head>
 <body>
-    <h3>CAD skrá fyrir arm</h3>
-    <div id="fusionEmbedContainer">
-        <!-- Embedded Fusion link will be displayed here -->
+    <div class="col-xs-12">
+        <h2> Hluti 3: 3D skönnun</h2>
+        <p style="font-size: 14px;"> 
+            Nú var hin forláta Verkvals kaffikanna tekin fyrir og skönnuð með appinu PolyCam sem fékkst ókeypis til nokkurra daga á AppStore. Því var kannan skönnuð í miklum flýti svo ekki þyrfti að fara að greiða fyrir þjónustuna. Sjá má hvernig skönnunin gekk mun betur á framhlið könnunnar heldur en að aftan og er það vegna þess að á framhlutanum eru límmiðar sem að gera forritinu kleift að átta sig betur á því hvernig hluturinn er í laginu á meðan að bakliðin er öll nokkurnvegin eins og því virtist erfitt fyrir forritið að átta sig á því hvernig hún væri í laginu. Ef vilji væri fyrir hendi væri hægt að bæta við einhverju á bakhliðina á meðan skannað væri. Til að mynda væri eflaust nægilegt að setja nokkrar línur af límbandi svo að forritið átti sig á því hvernig formið er.
+        </p>
+        <div class="image-container" style="text-align: center;">
+            <img src="./assets/images/TV2/KAFF1.jpg" alt="Descriptive Text">
+        </div>
+        <div class="image-container" style="text-align: center;">
+            <img src="./assets/images/TV2/KAFFI 2.jpg" alt="Descriptive Text">
+        </div>
+    </div>
+
+
+
+    <h3>CAD skrá fyrir kaffikönnu</h3>
+    <div id="fusionEmbedContainer2">
+        <!-- Second Embedded Fusion link will be displayed here -->
     </div>
 
     <script>
         window.addEventListener('DOMContentLoaded', function() {
-            var fusionLink = "https://a360.co/43baemx"; // Your Fusion link
-            var fusionEmbedContainer = document.getElementById('fusionEmbedContainer');
-            fusionEmbedContainer.innerHTML = '<iframe src="' + fusionLink + '" width="100%" height="500px"></iframe>';
+            var fusionLink1 = "https://a360.co/3IyvAR1"; // First Fusion link
+            var fusionLink2 = "https://a360.co/43vFRrb"; // Second Fusion link
+
+            var fusionEmbedContainer1 = document.getElementById('fusionEmbedContainer1');
+            fusionEmbedContainer1.innerHTML = '<iframe src="' + fusionLink1 + '" width="100%" height="500px"></iframe>';
+
+            var fusionEmbedContainer2 = document.getElementById('fusionEmbedContainer2');
+            fusionEmbedContainer2.innerHTML = '<iframe src="' + fusionLink2 + '" width="100%" height="500px"></iframe>';
         });
     </script>
 </body>
+</html>
+         
 <footer class="footer-container text-center">
   <div class="container">
     <div class="row">
