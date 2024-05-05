@@ -118,7 +118,7 @@
 <div class="col-xs-12">
     <h2> Hluti 3 parametrískt geislaskurðarmódel</h2>
     <p style="font-size: 14px;"> 
-        Í þessum hluta var ákveðið að samtvinna verkefnið við áfangann Tölvustýrður vélbúnaður og skera út arm fyrir vínróbot. Til að uppfylla kröfur verkefnisins voru hafðar geirnegldir festipunktar á arminum og módelið gert parametrískt svo að hægt væri að breyta helstu stærðum og módelið myndi fylgja. Þar sem að aðeins var í boði að notast við 3 mm akrýl plötur þá var ákveðið að hafa hvora hlið armsins tvö lög á þykkt til að auka styrk og stöðugleika. Press fit spennur sjá svo um að halda lögunum saman.
+        Í þessum hluta var ákveðið að samtvinna verkefnið við áfangann Tölvustýrður vélbúnaður og skera út arm fyrir vínróbot. Til að uppfylla kröfur verkefnisins voru hafðar geirnegldir festipunktar á arminum og módelið gert parametrískt svo að hægt væri að breyta helstu stærðum og módelið myndi fylgja. Þar sem að aðeins var í boði að notast við 3 mm akrýl plötur þá var ákveðið að hafa hvora hlið armsins tvö lög á þykkt til að auka styrk og stöðugleika. Press fit spennur sjá svo um að halda lögunum saman. Hönnunin var ákvörðuð með hópfélögum í vínróbotnum og var innblástur dreginn af svipuðum armi sem eitt sinn hafði sést í VR3. Armur sá var geislaskorinn úr krossvið og gaf okkur góða hugmynd um hvernig við vildum hafa hönnunina. Því miður fór með hann eins og svo margt annað sem er til húsa í VR3. Hann glataðist í hyldýpi rusls og drasls og sást aldrei aftur eftir þennan örlagaríka dag. 
     <div class="image-container" style="text-align: center;">
         <img src="./assets/images/TV2/ARM.jpg" alt="Descriptive Text">
     </div>
@@ -128,16 +128,27 @@
     <div class="image-container" style="text-align: center;">
         <img src="./assets/images/TV2/ARM3.jpg" alt="Descriptive Text">
     </div>
-    <div class="image-container" style="text-align: center;">
+ 
+    <p style="font-size: 14px;">  Í ljós kom svo að betra hefði verið að hafa kerf sem væri um 0.18 mm því ekki var allveg næginlega þétt þar sem hlutirnir komu saman. Smávægileg endurhönnun var þá gerð svo að press fit klemmurnar voru settar á milli armana að innan en ekki að ofan og neðan eins og fyrst hafði verið lagt upp með. Lokaniðurstaða var því eftirfarandi</p>
+    
+       <div class="image-container" style="text-align: center;">
         <img src="./assets/images/TV2/ARM4.jpg" alt="Descriptive Text">
     </div>
-    <p style="font-size: 14px;">  Í ljós kom svo að betra hefði verið að hafa kerf sem væri um 0.18 mm því ekki var allveg næginlega þétt þar sem hlutirnir komu saman. Smávægileg endurhönnun var þá gerð svo að press fit klemmurnar voru settar á milli armana að innan en ekki að ofan og neðan eins og fyrst hafði verið lagt upp með</p>
+       <p style="font-size: 14px;"> 
+    Gerðar voru nokkrar prófanir á þessari hönnun og var hún því miður ekki notuð í lokaniðurstöðu. Myndir eru því að af skornum skammti en á myndinni hér að neðan sést glitta í lokaniðurstöðu á prótótýpu að róbot.
      <div class="image-container" style="text-align: center;">
+        <img src="./assets/images/TV2/Screenshot%202024-05-05%20131848.jpg" alt="Descriptive Text">
+    </div>   
+    </p>
+
+    <p style="font-size: 14px;"> 
+    Þar sem að módelið var parametrískt þá var auðvelt að gera hönnunarbreytingar af þessu tagi. Parametrarnir voru eftirfarandi: Lengd, með því að breyta þessum parameter breyttist lengd armsins og þá sömuleiðis raufarnar fyrir spennur á milli þeirra og staðsetning gata. Breidd, breytti breiddinni á örmunum og passaði að göt og raufar væru enn í miðju armsins. Þykkt, var nauðsynlegt til að skala stærð raufa ef að mismunandi þykkt á plötu væri notuð. Í þessu tilfelli var þykktin 3 mm. Nplötur, gaf til kynna fjölda plata sem lögð væru saman í hvora hlið armsins. Í þessu tilfelli var notast við 2 lög af plötum á hvorum armi. Ef fjölda plata væri breytt þá myndu spennurnar á milli einnig skalast niður. AxleDiameter var eingöngu til að breyta stærð gatana sem voru á arminum fyrir t.a.m öxla og legur. Bil parameterinn breytti svo bilinu sem átti að vera á milli beggja hliða armsins og skalaði þannig millispennurnar í rétta lengd eftir því.
+        
+    </p>
+         <div class="image-container" style="text-align: center;">
         <img src="./assets/images/TV2/PARAM.jpg" alt="Descriptive Text">
     </div>
-    <p style="font-size: 14px;"> 
-    Þar sem að módelið var parametrískt þá var auðvelt að gera hönnunarbreytingar af þessu tagi
-    </p>
+    
 </div>
 <body>
     <h3>CAD skrá fyrir arm</h3>
@@ -152,15 +163,7 @@
             fusionEmbedContainer.innerHTML = '<iframe src="' + fusionLink + '" width="100%" height="500px"></iframe>';
         });
     </script>
-</body>
-<footer class="footer-container text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <p>© Þorsteinn Örn Friðriksson </a></p>
-      </div>
-    </div>
-  </div>
+
     
 </body>
       <head>
@@ -208,7 +211,15 @@
 
 </body>
 </footer>
-
+</body>
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© Þorsteinn Örn Friðriksson </a></p>
+      </div>
+    </div>
+  </div>
 
 </script>
 
